@@ -1,15 +1,19 @@
-package br.com.springboot.demo.gateway;
+package br.com.springboot.netflix.gateway;
 
-public class User {
+public class Rating {
     private Long id;
-    private String name;
-    private String email;
+    private Long userId;
+    private Long movieId;
+    private int score;
 
-    public User(Long id, String name, String email) {
+    public Rating(Long id, Long userId, Long movieId, int score) {
         this.id = id;
-        this.name = name;
-        this.email = email;
+        this.userId = userId;
+        this.movieId = movieId;
+        this.score = score;
     }
+
+    // getters and setters...
 
     public Long getId() {
         return id;
@@ -19,19 +23,27 @@ public class User {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public Long getUserId() {
+        return userId;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUserId(Long userId) {
+        this.userId = userId;
     }
 
-    public String getEmail() {
-        return email;
+    public Long getMovieId() {
+        return movieId;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setMovieId(Long movieId) {
+        this.movieId = movieId;
+    }
+
+    public int getScore() {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
     }
 }

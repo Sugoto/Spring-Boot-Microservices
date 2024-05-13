@@ -1,4 +1,4 @@
-package br.com.springboot.demo.gateway;
+package br.com.springboot.netflix.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

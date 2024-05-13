@@ -1,4 +1,4 @@
-package br.com.springboot.demo.gateway;
+package br.com.springboot.netflix.gateway;
 
 public class User {
     private Long id;
