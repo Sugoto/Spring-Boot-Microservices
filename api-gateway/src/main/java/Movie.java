@@ -1,5 +1,3 @@
-
-
 public class Movie {
     private Long id;
     private String title;

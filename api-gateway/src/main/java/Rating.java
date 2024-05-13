@@ -1,5 +1,3 @@
-
-
 public class Rating {
     private Long id;
     private Long userId;
