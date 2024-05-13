@@ -1,4 +1,4 @@
-package br.com.springboot.netflix.gateway;
+
 
 import org.springframework.web.bind.annotation.*;
 

@@ -1,4 +1,4 @@
-package br.com.springboot.netflix.gateway;
+
 
 public class Movie {
     private Long id;
